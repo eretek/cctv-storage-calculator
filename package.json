@@ -1,0 +1,15 @@
+{
+  "name": "cctv-storage-calculator",
+  "version": "1.1.3",
+  "private": true,
+  "description": "Calculate NVR/VMS disk capacity from camera count, bitrate (Mbit/s), recording hours per day and retention days, and how many days an existing disk holds.",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://kamera.eretek.com/en/tools/cctv-storage-calculator",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

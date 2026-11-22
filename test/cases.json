@@ -1,0 +1,38 @@
+{
+ "tests": [
+  {
+   "in": {
+    "groups": "A;32;4;24;30",
+    "oh": 0
+   },
+   "v": {
+    "totalTB": 41.472
+   }
+  },
+  {
+   "in": {
+    "groups": "Giriş;8;4;24;30\nOtopark;12;6;24;30\nDepo;24;2;12;30",
+    "oh": 10,
+    "usable": 40
+   },
+   "v": {
+    "rawTB": 41.472,
+    "totalTB": 45.619,
+    "fits": false,
+    "daysPossible": 26
+   }
+  },
+  {
+   "in": {
+    "groups": "A;4;3;25;30"
+   },
+   "err": "groups"
+  },
+  {
+   "in": {
+    "groups": "A;4,5;3;24;30"
+   },
+   "err": "groups"
+  }
+ ]
+}
